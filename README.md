@@ -66,4 +66,5 @@ threshold_value = 120
 _, threshold_image = cv2.threshold(image_hsi[:,:,2], threshold_value, 255, cv2.THRESH_BINARY)
 show_images('G![download](https://github.com/user-attachments/assets/afe30dfe-5b55-486a-99c7-a95736603f60)
 gambar Asli (Intensity Component)', image_hsi[:,:,2], 'Thresholding pada Komponen Intensity', threshold_image)
-     
+     ![download](https://github.com/user-attachments/assets/37ac4594-08c7-4e00-aed2-78c64a9517ad)
+
