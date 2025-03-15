@@ -67,4 +67,30 @@ _, threshold_image = cv2.threshold(image_hsi[:,:,2], threshold_value, 255, cv2.T
 show_images('G![download](https://github.com/user-attachments/assets/afe30dfe-5b55-486a-99c7-a95736603f60)
 gambar Asli (Intensity Component)', image_hsi[:,:,2], 'Thresholding pada Komponen Intensity', threshold_image)
      ![download](https://github.com/user-attachments/assets/37ac4594-08c7-4e00-aed2-78c64a9517ad)
+1.citra negative
+input:Gambar asli dalam format RGB atau grayscale.
+output:Gambar dengan intensitas warna yang dibalik (negatif).
+![download](https://github.com/user-attachments/assets/fe140e42-809a-440c-a06e-9cdd54daf420)
+2.transformasi log
+input:Gambar asli dalam format RGB atau grayscale.
+output:Gambar dengan peningkatan kontras pada area gelap.
+![download](https://github.com/user-attachments/assets/0ecadc68-2892-4a23-9e02-72f97bb9e13b)
+3.Transformasi Power Law (Gamma):
+input:Gambar asli dalam format RGB atau grayscale.
+output:Gambar dengan penyesuaian kontras berdasarkan nilai gamma.
+
+![download](https://github.com/user-attachments/assets/9e2e3eeb-0863-4038-bd4f-62651fb267b7)
+4.Histogram Equalization:
+input:Gambar asli dalam format RGB atau grayscale.
+output:Gambar dengan distribusi intensitas yang lebih merata.
+
+![download](https://github.com/user-attachments/assets/50f227d9-daa8-4e4f-8eb5-ad366994611d)
+5.Histogram Normalization:
+input:Gambar asli dalam format RGB atau grayscale.
+output:Gambar dengan intensitas yang dinormalisasi ke rentang 0-255.
+
+![download](https://github.com/user-attachments/assets/f4bfef1a-3796-42b5-9403-dd10e47120e2)
+6.Konversi RGB ke HSI:
+input:Gambar asli dalam format RGB.
+output:Gambar dalam format HSI (Hue, Saturation, Intensity).
 
